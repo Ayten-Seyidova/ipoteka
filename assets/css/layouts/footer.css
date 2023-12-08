@@ -1,0 +1,32 @@
+.footer-copyright {
+    height: 80px;
+    line-height: 80px;
+    color: #B3B3B3;
+    text-align: center;
+    background-color: #050505;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-copyright {
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-copyright {
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-copyright {
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+}
