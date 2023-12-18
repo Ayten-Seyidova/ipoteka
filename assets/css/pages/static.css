@@ -1,0 +1,62 @@
+.static-section {
+    margin: 72px 0;
+}
+
+.static-section .static-header {
+    color: var(--main-color);
+    font-size: 48px;
+    font-weight: bold;
+    font-family: var(--inter-family);
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+
+.static-section .static-content {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--inter-family);
+}
+
+@media only screen and (max-width: 1199px) {
+    .static-section {
+        margin: 40px 0;
+    }
+    
+    .static-section .static-header {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    
+    .static-section .static-content {
+        font-size: 16px;
+        line-height: 20px;
+    } 
+}
+
+@media only screen and (max-width: 991px) {
+    .static-section .static-header {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    
+    .static-section .static-content {
+        font-size: 14px;
+    }    
+}
+
+@media only screen and (max-width: 575px) {
+    .static-section {
+        margin: 30px 0;
+    }
+    
+    .static-section .static-header {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .static-section .static-content {
+        font-size: 12px;
+        line-height: 18px;
+    }    
+}
