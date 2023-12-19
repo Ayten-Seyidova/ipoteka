@@ -1,0 +1,128 @@
+.contact-items .contact-item {
+    margin-bottom: 16px;
+    color: #BFBFBF;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--inter-family);
+}
+
+.contact-items .contact-item:last-child {
+    margin-bottom: 26px;
+}
+
+.contact-items a {
+    color: #BFBFBF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contact-items img {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.contact-section iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.contact-form input,
+.contact-form input:focus,
+.contact-form select,
+.contact-form select:focus,
+.contact-form textarea, 
+.contact-form textarea:focus {
+    background-color: rgba(207, 207, 207, .4);
+    border-color: rgba(207, 207, 207, .4);
+    color: var(--white-color);
+    padding: 14px 20px;
+    margin-bottom: 8px;
+}
+
+.contact-form option{
+    background-color: #656565 !important;
+    color: var(--white-color);
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    background-color: rgba(207, 207, 207, .5);
+    box-shadow: 0 0 10px 0 var(--main-color);
+    border-color: var(--main-color);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--white-color);
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    height: 48px;
+    background-color: var(--main-color);
+    transition: .3s all ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: rgba(0, 146, 223, .9) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-items .contact-item {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .contact-items .contact-item:last-child {
+        margin-bottom: 20px;
+    }
+    
+    .contact-items a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .contact-items img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .contact-section iframe {
+        height: 250px;
+    }
+    
+    .contact-form input,
+    .contact-form input:focus,
+    .contact-form select,
+    .contact-form select:focus,
+    .contact-form textarea, 
+    .contact-form textarea:focus {
+        padding: 8px 12px;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .contact-form button {
+        height: 36px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .contact-items .contact-item {
+        font-size: 12px;
+    }
+    
+    .contact-items a {
+        font-size: 12px;
+    }
+}

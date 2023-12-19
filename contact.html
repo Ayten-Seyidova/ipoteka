@@ -167,36 +167,58 @@
     <!-- Main -->
     <main>
         <div class="container">
-            <section class="static-section">
+            <section class="static-section contact-section">
                 <h3 class="static-header">Bizimlə Əlaqə</h3>
                 <div class="static-content">
-                   <div class="row">
-                    <div class="col-8">
-                        <div class="contact-section">
-                            <div class="contact-item">
-                                <img src="./assets/img/location.svg" alt="">
-                                <span>Ünvan: Naxçıvan şəhəri C.Məmmədquluzadə-32</span>
+                    <div class="row">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7">
+                            <div class="contact-items">
+                                <div class="contact-item">
+                                    <img src="./assets/img/location.svg" alt="">
+                                    <span>Ünvan: Naxçıvan şəhəri C. Məmmədquluzadə - 32</span>
+                                </div>
+                                <div class="contact-item">
+                                    <img src="./assets/img/phone.svg" alt="">
+                                    <span>Çağrı mərkəzi: <a href="tel:">1549</a></span>
+                                </div>
+                                <div class="contact-item">
+                                    <img src="./assets/img/fax.svg" alt="">
+                                    <span>Faks: <a href="tel:">550-59-19 (550-59-19)</a></span>
+                                </div>
+                                <div class="contact-item">
+                                    <img src="./assets/img/mail.svg" alt="">
+                                    <span>E-poçt ünvanı: <a href="mailto:">nif@nakhchivan.az</a></span>
+                                </div>
+                                <div class="contact-item">
+                                    <img src="./assets/img/web.svg" alt="">
+                                    <span>Web səhifə: <a href="">www.nif.gov.az</a></span>
+                                </div>
                             </div>
-                            <div class="contact-item">
-                                <img src="./assets/img/phone.svg" alt="">
-                                <span>Çağrı mərkəzi: <a href="tel:">1549</a></span>
-                            </div>
-                            <div class="contact-item">
-                                <img src="./assets/img/fax.svg" alt="">
-                                <span>Faks: <a href="tel:">550-59-19 (550-59-19)</a></span>
-                            </div>
-                            <div class="contact-item">
-                                <img src="./assets/img/mail.svg" alt="">
-                                <span>E-poçt ünvanı: <a href="mailto:">nif@nakhchivan.az</a></span>
-                            </div>
-                            <div class="contact-item">
-                                <img src="./assets/img/web.svg" alt="">
-                                <span>Web səhifə: <a href="">www.nif.gov.az</a></span>
-                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58807.78917379866!2d45.37924497028488!3d39.22689477618792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zTmF4w6fEsXZhbiDFn8mZaMmZcmkgQy5NyZltbcmZZHF1bHV6YWTJmQ!5e0!3m2!1sen!2saz!4v1702907497984!5m2!1sen!2saz"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58807.78917379866!2d45.37924497028488!3d39.22689477618792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zTmF4w6fEsXZhbiDFn8mZaMmZcmkgQy5NyZltbcmZZHF1bHV6YWTJmQ!5e0!3m2!1sen!2saz!4v1702907497984!5m2!1sen!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5">
+                            <form action="" class="contact-form" method="POST" id="contactForm">
+                                <input type="text" name="name" id="name" placeholder="Ad, Soyad, Ata adı:"
+                                    class="form-control">
+                                <input type="text" name="address" id="address" placeholder="Ünvan:"
+                                    class="form-control">
+                                <input type="text" name="phone" id="phone" placeholder="Telefon:" class="form-control">
+                                <input type="email" name="email" id="email" placeholder="E-poçt ünvanı:"
+                                    class="form-control">
+                                <select name="type" id="type" class="form-control default-select">
+                                    <option value="Müraciət" selected>Müraciət</option>
+                                    <option value="Təklif">Təklif</option>
+                                    <option value="Şikayət">Şikayət</option>
+                                </select>
+                                <textarea name="text" class="form-control" id="text" placeholder="Tərkib:" cols="30"
+                                    rows="5"></textarea>
+                                <button class="btn btn-primary" type="submit">GÖNDƏR</button>
+                            </form>
+                        </div>
                     </div>
-                   </div>
                 </div>
             </section>
         </div>
