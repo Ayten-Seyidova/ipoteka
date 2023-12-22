@@ -25,6 +25,7 @@
 
 .my-menu .dropdown:hover .dropdown-menu {
     display: block;
+    min-width: 200px;
 }
 
 .my-menu .dropdown-toggle:active {

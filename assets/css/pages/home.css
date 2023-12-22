@@ -149,6 +149,7 @@
   width: 256px;
   height: 128px;
   display: block;
+  object-fit: cover;
 }
 
 /* Photo section */
@@ -190,7 +191,12 @@
   font-family: 'Allura', cursive;
 }
 
+.photo-section .photo-title a {
+  color: #CFCFCF;
+}
+
 @media only screen and (max-width: 1399px) {
+
   /* News section */
   .main-slider {
     margin-top: 40px;
@@ -240,6 +246,7 @@
 }
 
 @media only screen and (max-width: 1199px) {
+
   /* News section */
   .main-slider .section-header {
     margin-bottom: 15px;
@@ -308,6 +315,7 @@
 }
 
 @media only screen and (max-width: 991px) {
+
   /* News section */
   .main-slider {
     margin-top: 30px;
@@ -362,6 +370,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+
   /* News section */
   .finance-section .finance-item {
     margin-bottom: 20px;
@@ -388,6 +397,7 @@
 }
 
 @media only screen and (max-width: 575px) {
+
   /* Finance section */
   .finance-section {
     margin-top: 40px;
@@ -424,6 +434,7 @@
 }
 
 @media only screen and (max-width: 479px) {
+
   /* News section */
   .main-slider .news-date {
     margin-bottom: 10px;
@@ -479,6 +490,7 @@
 }
 
 @media only screen and (max-width: 399px) {
+
   /* News section */
   .main-slider .news-display {
     height: auto;

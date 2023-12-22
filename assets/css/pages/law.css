@@ -1,57 +1,43 @@
-.pdf-link {
-    margin-top: 20px;
+.law-section .law-item {
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
 }
 
-.pdf-link img {
-    display: inline-block;
-    width: 30px;
-    margin-right: 10px;
-    opacity: .7;
+.law-section .law-item:last-child {
+    margin-bottom: 0;
 }
 
-.pdf-link a {
-    color: #062567;
+.law-item .pdf-img {
+    display: inline-block;
+    width: 32px;
+    margin-right: 12px;
+}
+
+.law-item .pdf-link {
     transition: .3s all ease-in-out;
 }
 
-.pdf-link a:hover {
-    color: #2d829c;
+.law-item .pdf-link:hover {
+    color: var(--main-color);
 }
 
-.page-title {
-    font-weight: 700;
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #062567;
-    text-shadow: 2px 2px lightgray;
-}
-
-@media only screen and (max-width: 992px) {
-    .page-title {
-        font-size: 28px;
+@media only screen and (max-width: 1199px) {
+    .law-section .law-item {
+        margin-bottom: 10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .page-title {
-        font-size: 26px;
+@media only screen and (max-width: 767px) {
+    .law-section .law-item {
+        margin-bottom: 10px;
     }
-}
-
-@media only screen and (max-width: 576px) {
-    .page-title {
-        font-size: 22px;
-        margin-bottom: 15px;
-    }
-
-    .pdf-link img {
+    
+    .law-item .pdf-img {
         width: 20px;
     }
-
-    .pdf-link a {
+    
+    .law-item .pdf-link {
         font-size: 12px;
     }
 }
